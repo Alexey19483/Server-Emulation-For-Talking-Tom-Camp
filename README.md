@@ -6,7 +6,9 @@ I'm trying to make a BackEnd (Server) for Talking Tom Camp. I'm doing a new Back
 <details>
 <summary>UPD1</summary>
 
-I have some good and bad news. Good news: now I know TTC backend URLs,and even made a stub,but it didn't help so much: "LOGIN FAILED" "message" is gone. Bad news: there's another "message now": "CONNECTION ERROR".
+I have some good and bad news. Good news: now I know TTC backend URLs,and even made a stub,but it didn't help so much: "LOGIN FAILED" "message" is gone. Bad news: there's another "message" now: "CONNECTION ERROR".
+
+![alt text](https://github.com/Alexey19483/Server-Emulation-For-Talking-Tom-Camp/blob/main/CONNECTION%20ERROR.png?raw=true)
 
 </details>
 
@@ -39,7 +41,9 @@ Most likely, development will slow down after the summer ends, but I will still 
 <details>
 <summary>АПД1</summary>
   
-Есть хорошая и плохая новость. Хорошая - я пофиксил "login failed" "сообщение" ,и я впринципе знаю урл-ки. Плохая - теперь другое "сообщение" : "CONNECTION ERROR"
+Есть хорошая и плохая новость. Хорошая - я пофиксил "login failed" "сообщение" ,и я знаю backend адреса TTC. Плохая - теперь другое "сообщение" : "CONNECTION ERROR"
+
+![alt text](https://github.com/Alexey19483/Server-Emulation-For-Talking-Tom-Camp/blob/main/CONNECTION%20ERROR.png?raw=true)
 
 </details>
 
