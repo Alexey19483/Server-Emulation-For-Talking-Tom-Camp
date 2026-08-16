@@ -1,20 +1,22 @@
 # Server-Emulation-For-Talking-Tom-Camp
 > So,I don't know will I be able to do this or not,but I will try.
 
-I'm trying to make a BackEnd (Server) for Talking Tom Camp. I'm doing a new Backend because the original is gone forever. I will try to make game working exactly how it was working before shutdown. In another way, i will try to restore analytics and statistics (Idk for what,and for now I don't know was it in the original,and yea,ik,it's maybe useless), notifications, leaderboards,clans and online support (PvP) without Google. Idk when I do this, but soon (i hope) I will publish a prototype without full BackEnd (DashBoard,statistics and analytics info and so on).
+I'm trying to make a BackEnd (Server) for Talking Tom Camp. I'm doing a new Backend because the original is gone forever. I will try to make game working exactly how it was working before shutdown. In another way, i will try to restore notifications, leaderboards,clans and matchmaking without Outfit7 servers and other (Ads SDK, Google). Idk when I do this, but soon (i hope) I will publish a prototype without anything extra.
 
 <details>
 <summary>UPD1</summary>
 
-I have some good and bad news. Good news: now I know TTC urls,and even made a stub,but it didn't help so much: "LOGIN FAILED" "message" is gone. Bad news: there's another "message now": "CONNECTION ERROR".
+I have some good and bad news. Good news: now I know TTC backend URLs,and even made a stub,but it didn't help so much: "LOGIN FAILED" "message" is gone. Bad news: there's another "message now": "CONNECTION ERROR".
 
 </details>
 
 
 <details>
 <summary>UPD2</summary>
-Due to the TTC have custom engine - Starlite,maybe will be two versions:
-1. Original TTC but with backend emulation, online with local internet and global (idk,maybe I won't host server for online with global internet,but I will upload software for emulation and starting your own server
+Due to the TTC have custom engine - Starlite,maybe will be two versions: 
+
+1. Original TTC but with server emulation, online with local internet and global (idk,maybe I won't host server for online with global internet,but I will upload software for emulation and starting your own server
+
 2. TTC but remade with other engine but with original assets. Maybe I won't do this version,but I can try.
 
 </details>
@@ -32,7 +34,7 @@ Most likely, development will slow down after the summer ends, but I will still 
 
 > Я незнаю получится ли мне это сделать или нет,но я попробую.
 
-Я пытаюсь сделать Бэкэнд (сервер) Для Говорящий Том: Водная битва (Я буду сокращать,если что игра по другому называется Битва Тома/Том Водная Битва ну или Лагерь Тома,сокращать буду как TTC). Я делаю новый бэкэнд потому что оригинальный уже выключен ( "Спасибо" , Outfit7! ). Я постараюсь сделать игры рабочей так,как она была до выключения серверов. Я попытаюсь восстановить всё: уведомления,стастика и аналитика (хз зачем), лидерборды,кланы и полную поддержку онлайна без Google. Почему без Google - потому что я хочу сделать автономность. Я не знаю когда я сделаю это,но я надеюсь что я выпущу первый прототип без всего лишнего.
+Я пытаюсь сделать Бэкэнд (сервер) Для Говорящий Том: Водная битва (Я буду сокращать,если что игра по другому называется Битва Тома/Том Водная Битва ну или Лагерь Тома,сокращать буду как TTC). Я делаю новый бэкэнд потому что оригинальный уже выключен ( "Спасибо" , Outfit7! ). Я постараюсь сделать игры рабочей так,как она была до выключения серверов. Я попытаюсь восстановить всё: уведомления, лидерборды, кланы, матчмейкинг и полную поддержку онлайна без серверов Outfit7 и прочего (Рекламные SDK, Всякие Google штуки). Почему без всего этого - потому что я хочу сделать автономность. Я не знаю когда я сделаю это,но я надеюсь что я выпущу первый прототип без всего лишнего (то есть без того что не нужно для запуска).
 
 <details>
 <summary>АПД1</summary>
@@ -45,7 +47,8 @@ Most likely, development will slow down after the summer ends, but I will still 
 <details>
 <summary>АПД2</summary>
 Короче,связи с тем что движок здесь кастомный - Starlite, будет возможно две версии:
-1. Исходная игра но с эмуляцией бэкэнда,онлайн по локалке и по сети (прям по сети конечно возможно, я возможно не буду хостировать но выложу ПО для эмуляции и поднятия своего сервера).
+  
+1. Исходная игра но с эмуляцией сервера,онлайн по локалке и по сети (прям по сети конечно возможно, я возможно не буду хостировать но выложу ПО для эмуляции и поднятия своего сервера).
 2. Игра переделанная на другой движок но с исходными ассетами. Возможно такой версии не будет,но можно впринципе сделать.
   
 </details>
