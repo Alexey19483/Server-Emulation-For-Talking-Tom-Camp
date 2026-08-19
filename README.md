@@ -32,6 +32,7 @@ Well, I didn’t find anyone, so I’m still working. In short, I almost managed
 
 Most likely, development will slow down after the summer ends, but I will still continue doing.
 
+> TO BE HONEST: I don't know who will play, the fandom has already broke up I think and the game is old (it’s been almost 6 years since the servers were shut down) and only now I got around to this.
 ## Эмуляция Сервера для Говорящий Том: Водная битва (Русский перевод):
 
 > Я незнаю получится ли мне это сделать или нет,но я попробую.
@@ -66,4 +67,4 @@ Most likely, development will slow down after the summer ends, but I will still 
 
 Скорей всего разработка после окончания лета будет замедлена,но я всё равно буду продолжать делать.
 
-> ЕСЛИ ЧЕСТНО: Я незнаю кто будет играть,фандом уже распался вроде,игра старая (ну уже 6 лет с закрытия прошло) а мои руки только сейчас добрались.
+> ЕСЛИ ЧЕСТНО: Я незнаю кто будет играть,фандом уже распался вроде,игра старая (ну уже почти что 6 лет с закрытия прошло) а мои руки только сейчас добрались.
