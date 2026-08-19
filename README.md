@@ -1,7 +1,7 @@
 # Server-Emulation-For-Talking-Tom-Camp
 > So,I don't know will I be able to do this or not,but I will try.
 
-I'm trying to make a BackEnd (Server) for Talking Tom Camp. I'm doing a new Backend because the original is gone forever. I will try to make game working exactly how it was working before shutdown. In another way, i will try to restore notifications, leaderboards,clans and matchmaking without Outfit7 servers and other (Ads SDK, Google). Idk when I do this, but soon (i hope) I will publish a prototype without anything extra.
+I'm trying to make a server emulator for Talking Tom Camp. I'm doing it because the original is gone forever. I will try to make game working exactly how it was working before shutdown. In another way, i will try to restore notifications, leaderboards,clans and matchmaking without Outfit7 servers and other (Ads SDK, Google). Idk when I do this, but soon (i hope) I will publish a prototype without anything extra.
 
 <details>
 <summary>UPD1</summary>
@@ -36,7 +36,7 @@ Most likely, development will slow down after the summer ends, but I will still 
 
 > Я незнаю получится ли мне это сделать или нет,но я попробую.
 
-Я пытаюсь сделать Бэкэнд (сервер) Для Говорящий Том: Водная битва (Я буду сокращать,если что игра по другому называется Битва Тома/Том Водная Битва ну или Лагерь Тома,сокращать буду как TTC). Я делаю новый бэкэнд потому что оригинальный уже выключен ( "Спасибо" , Outfit7! ). Я постараюсь сделать игры рабочей так,как она была до выключения серверов. Я попытаюсь восстановить всё: уведомления, лидерборды, кланы, матчмейкинг и полную поддержку онлайна без серверов Outfit7 и прочего (Рекламные SDK, Всякие Google штуки). Почему без всего этого - потому что я хочу сделать автономность. Я не знаю когда я сделаю это,но я надеюсь что я выпущу первый прототип без всего лишнего (то есть без того что не нужно для запуска).
+Я пытаюсь сделать эмулятор сервера Для Говорящий Том: Водная битва (Я буду сокращать,если что игра по другому называется Битва Тома/Том Водная Битва ну или Лагерь Тома,сокращать буду как TTC). Я делаю это потому что оригинальный сервер уже выключен ( "Спасибо" , Outfit7! ). Я постараюсь сделать игры рабочей так,как она была до выключения серверов. Я попытаюсь восстановить всё: уведомления, лидерборды, кланы, матчмейкинг и полную поддержку онлайна без серверов Outfit7 и прочего (Рекламные SDK, Всякие Google штуки). Почему без всего этого - потому что я хочу сделать автономность. Я не знаю когда я сделаю это,но я надеюсь что я выпущу первый прототип без всего лишнего (то есть без того что не нужно для запуска).
 
 <details>
 <summary>АПД1</summary>
