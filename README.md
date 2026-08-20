@@ -30,6 +30,12 @@ Well, I didn’t find anyone, so I’m still working. In short, I almost managed
   
 </details>
 
+<details>
+<summary>UPD4</summary>
+I'm too lazy to make english translation for UPD4. Just wait a little bit and i will make translation.
+
+</details>
+
 Most likely, development will slow down after the summer ends, but I will still continue doing.
 
 > TO BE HONEST: I don't know who will play, the fandom has already broke up I think and the game is old (it’s been almost 6 years since the servers were shut down) and only now I got around to this.
@@ -62,6 +68,21 @@ Most likely, development will slow down after the summer ends, but I will still 
 <details>
 <summary>АПД3</summary>
 Я короче так и не нашел никого,продолжаю работу. Короче говоря - я почти смог запустить. Я смог получить Grid конфиг через дыру в сервера,но игре всё еще чего-то не хватает. Либо что-то с google составляющей,либо есть какие-то скрытые соединения из-за которых падает игра,либо я как-то не так преподношу игре конфиг и т.д. (хотя с другими играми Outfit7 я смог нормально сделать заглушку и запустить их). Короче буду продолжать работу.
+
+</details>
+
+<details>
+<summary>АПД4</summary>
+HTTP(S) заглушка уже готова,но в дальнейшем нужна будет доработка (добавления лайф режима для grid конфига и т.д., добавление других URL чтобы заглушка отвечала на них тоже. Моя заглушка сделана на python с mitmproxy.
+
+НО ДАЖЕ С ЗАГЛУШКОЙ ДО ЗАПУСКА ИГРЫ НЕ ДОХОДИТ!
+
+И я сейчас вспомнил одно, что в коде игры я видел упоминания DTLS, а так-же еще и в соединениях (я смотрел через PCAPDroid) я видел dns (udp) которые выглядели слишком странно. И походу мне придётся делать DTLS заглушку.
+
+СПОЙЛЕР: Я вообще не шарю за DTLS. 
+
+Я возьму чуть отдыха и начну изучать DTLS, и потом буду писать заглушку.
+DTLS заглушка будет скорей всего тоже на python.
 
 </details>
 
