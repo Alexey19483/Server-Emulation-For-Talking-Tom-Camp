@@ -8,7 +8,7 @@ I'm trying to make a server emulator for Talking Tom Camp. I'm doing it because 
 
 I have some good and bad news. Good news: now I know TTC backend URLs,and even made a stub,but it didn't help so much: "LOGIN FAILED" "message" is gone. Bad news: there's another "message" now: "CONNECTION ERROR".
 
-![alt text](https://github.com/Alexey19483/Server-Emulation-For-Talking-Tom-Camp/blob/main/CONNECTION%20ERROR.png?raw=true)
+![alt text](https://github.com/Alexey19483/Server-Emulation-For-Talking-Tom-Camp/blob/0443aedc108afe94ca7d3a3ffc25dbaa4a52fd67/stubs/images/CONNECTION%20ERROR.png?raw=true)
 
 </details>
 
@@ -50,7 +50,7 @@ Most likely, development will slow down after the summer ends, but I will still 
   
 Есть хорошая и плохая новость. Хорошая - я пофиксил "login failed" "сообщение" ,и я знаю backend адреса TTC. Плохая - теперь другое "сообщение" : "CONNECTION ERROR"
 
-![alt text](https://github.com/Alexey19483/Server-Emulation-For-Talking-Tom-Camp/blob/main/CONNECTION%20ERROR.png?raw=true)
+![alt text](https://github.com/Alexey19483/Server-Emulation-For-Talking-Tom-Camp/blob/0443aedc108afe94ca7d3a3ffc25dbaa4a52fd67/stubs/images/CONNECTION%20ERROR.png?raw=true)
 
 </details>
 
