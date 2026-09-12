@@ -6,5 +6,5 @@
 #support-url: https://t.me/ianesnaychtotytnapisat
 #profile-web-page-url: https://github.com/Alexey19483/Server-Emulation-For-Talking-Tom-Camp
 #hide-settings: 1
-#fallback-url: https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/Alexey19483/Server-Emulation-For-Talking-Tom-Camp/refs/heads/main/stubs/vpn-connect/CONNECT_MyOwnServer&lang=en-en
+#fallback-url: https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/Alexey19483/Server-Emulation-For-Talking-Tom-Camp/refs/heads/Server-Emulation/stubs/vpn-connect/CONNECT_MyOwnServer&lang=en-en
 vless://f43a2c1e-8b7d-4f9a-b3c5-6e1d0a92b7f4@192.168.0.108:9999?encryption=none&security=reality&sni=ya.ru&fp=chrome&pbk=RnsovNoMWw3z-EOhuT1fGXuqx4lQl7EWbzJRIdBM0wg&sid=abcdef0123456789&spx=%2F&type=tcp&flow=xtls-rprx-vision#title?serverDescription=SGFwcCB0aGUgYmVzdA==
