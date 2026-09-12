@@ -32,10 +32,26 @@ Well, I didn’t find anyone, so I’m still working. In short, I almost managed
 
 <details>
 <summary>UPD4</summary>
-I'm too lazy to make english translation for UPD4. Just wait a little bit and i will make translation.
+The HTTP(S) stub is already ready, but it will need further refinement (adding a live mode for the grid config, etc., adding other URLs so that the stub responds to them as well. My stub is written in Python with mitmproxy.
+
+BUT EVEN WITH THE STUB, THE GAME DOESN’T START!
+
+And I just remembered one thing: in the game’s code, I saw mentions of DTLS, and also in the connections (I checked via PCAPDroid). I saw DNS (UDP) that looked too weird. And I'm going to have to make a DTLS stub.
+
+SPOILER ALERT: I don't know anything about DTLS at all. 
+
+I'll take a little rest and start learning DTLS, and then I'll write a stub.
+The DTLS stub will most likely also be in python.
 
 </details>
 
+<details>
+<summary>UPD4.5</summary>
+In short, it turned out that apps-ext.oufit7.com (the main TTC server) is actually HTTP, not DTLS, so everything I said about DTLS was me jumping to conclusions. 
+
+I’m currently looking into this apps-ext (I’ll shorten it), and POSSIBLY, when I finally get the game running in some way, I’ll add UPD5 or UPD6 and then release the very first server emulator.
+
+</details>
 Most likely, development will slow down after the summer ends, but I will still continue doing.
 
 > TO BE HONEST: I don't know who will play, the fandom has already broke up I think and the game is old (it’s been almost 6 years since the servers were shut down) and only now I got around to this.
@@ -77,13 +93,21 @@ HTTP(S) заглушка уже готова,но в дальнейшем нуж
 
 НО ДАЖЕ С ЗАГЛУШКОЙ ДО ЗАПУСКА ИГРЫ НЕ ДОХОДИТ!
 
-И я сейчас вспомнил одно, что в коде игры я видел упоминания DTLS, а так-же еще и в соединениях (я смотрел через PCAPDroid) я видел dns (udp) которые выглядели слишком странно. И походу мне придётся делать DTLS заглушку.
+И я сейчас вспомнил одно, что в коде игры я видел упоминания DTLS, а так-же еще и в соединениях (я смотрел через PCAPDroid) я видел DNS (UDP) которые выглядели слишком странно. И походу мне придётся делать DTLS заглушку.
 
 СПОЙЛЕР: Я вообще не шарю за DTLS. 
 
 Я возьму чуть отдыха и начну изучать DTLS, и потом буду писать заглушку.
 DTLS заглушка будет скорей всего тоже на python.
 
+</details>
+
+<details>
+<summary>АПД4.5</summary>
+Короче, оказалось что apps-ext.oufit7.com (основной сервер TTC) вообще HTTP а не DTLS, так что всё что я сказал про DTLS это я поспешил с выводами. 
+
+Сейчас уже разбираюсь с этим apps-ext (я буду сокращать), и ВОЗМОЖНО, когда у меня наконец-то будет хоть как-то запускаться игра, то я добавлю АПД5 или АПД6 и уже выложу самый первый эмулятор сервера.
+  
 </details>
 
 Скорей всего разработка после окончания лета будет замедлена,но я всё равно буду продолжать делать.
