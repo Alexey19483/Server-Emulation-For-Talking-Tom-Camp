@@ -7,4 +7,20 @@
 #profile-web-page-url: https://github.com/Alexey19483/Server-Emulation-For-Talking-Tom-Camp
 #hide-settings: 1
 #fallback-url: https://translate.yandex.ru/translate?url=https://raw.githubusercontent.com/Alexey19483/Server-Emulation-For-Talking-Tom-Camp/refs/heads/Server-Emulation/stubs/vpn-connect/CONNECT_MyOwnServer&lang=en-en
+#subscription-auto-update-enable: 1
+#fragmentation-enable: 1
+#fragmentation-packets: tlshello
+#fragmentation-length: 50-100
+#fragmentation-interval: 5
+#fragmentation-maxsplit: 100-200
+#ping-type: proxy
+#check-url-via-proxy: http://www.google.com/generate_204
+#subscription-auto-update-open-enable: 1
+#ping-result: icon
+#tun-enable: 1
+#user-agent-geo-files: chrome-win
+#subscription-request-timeout: 15
+#xray-tun-enable: true
+#proxy-ping-mode: keepalive
 vless://f43a2c1e-8b7d-4f9a-b3c5-6e1d0a92b7f4@192.168.0.108:9999?encryption=none&security=reality&sni=ya.ru&fp=chrome&pbk=RnsovNoMWw3z-EOhuT1fGXuqx4lQl7EWbzJRIdBM0wg&sid=abcdef0123456789&spx=%2F&type=tcp&flow=xtls-rprx-vision#title?serverDescription=SGFwcCB0aGUgYmVzdA==
+vless://uuid@1.2.3.4:443?type=tcp&security=reality&pbk=kPUbLc&fp=chrome&sni=example.com&sid=abc123#Россия-01|<https://i.imgur.com/flag-russia.png>
