@@ -2,7 +2,8 @@
 #profile-title: Private Servers
 #profile-update-interval: 3
 #subscription-userinfo: upload=0; download=0; total=0; expire=
-#announce: PS for Outfit7 online games/ПС для онлайн игр от Outfit7
+#announce:
+base64: UHJpdmF0ZSBTZXJ2ZXJzIGZvciBPdXRmaXQ3IG9ubGluZSBnYW1lcwrQn9GA0LjQstCw0YLQvdGL0LUg0YHQtdGA0LLQtdGA0LAg0LTQu9GPINC+0L3Qu9Cw0LnQvSDQuNCz0YAg0L7RgiBPdXRmaXQ3Cg==
 #support-url: https://t.me/ianesnaychtotytnapisat
 #profile-web-page-url: https://github.com/Alexey19483/Server-Emulation-For-Talking-Tom-Camp
 #hide-settings: 1
