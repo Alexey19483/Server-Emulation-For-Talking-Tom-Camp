@@ -1,10 +1,10 @@
 # Server-Emulation-For-Talking-Tom-Camp
-> So,I don't know will I be able to do this or not,but I will try.
+> "Start filling your ballons, we are almost at the camp. The adventure is about to begin!"
 
 I'm trying to make a server emulator for Talking Tom Camp. I'm doing it because the original is gone forever. I will try to make game working exactly how it was working before shutdown. In another way, i will try to restore notifications, leaderboards,clans and matchmaking without Outfit7 servers and other (Ads SDK, Google). Idk when I do this, but soon (i hope) I will publish a prototype without anything extra.
 
 <details>
-<summary>UPD1</summary>
+<summary>UPD1(Outdated)</summary>
 
 I have some good and bad news. Good news: now I know TTC backend URLs,and even made a stub,but it didn't help so much: "LOGIN FAILED" "message" is gone. Bad news: there's another "message" now: "CONNECTION ERROR".
 
@@ -14,7 +14,7 @@ I have some good and bad news. Good news: now I know TTC backend URLs,and even m
 
 
 <details>
-<summary>UPD2</summary>
+<summary>UPD2(Outdated)</summary>
 Due to the TTC have custom engine - Starlite,maybe will be two versions: 
 
 1. Original TTC but with server emulation, online with local internet and global (idk,maybe I won't host server for online with global internet,but I will upload software for emulation and starting your own server
@@ -25,13 +25,13 @@ Due to the TTC have custom engine - Starlite,maybe will be two versions:
 
 
 <details>
-<summary>UPD3</summary>
+<summary>UPD3(Outdated)</summary>
 Well, I didn’t find anyone, so I’m still working. In short, I almost managed to get it running. I was able to get the Grid config through a hole in the server, but the game still lacks something. Either something’s wrong with the Google part, or there are some hidden connections that cause the game to crash, or I’m somehow giving the config to the game in the wrong way (although I was able to make a proper placeholder for other Outfit7 games and they worked). Anyway, I’ll keep working.
   
 </details>
 
 <details>
-<summary>UPD4</summary>
+<summary>UPD4(Outdated)</summary>
 The HTTP(S) stub is already ready, but it will need further refinement (adding a live mode for the grid config, etc., adding other URLs so that the stub responds to them as well. My stub is written in Python with mitmproxy.
 
 BUT EVEN WITH THE STUB, THE GAME DOESN’T START!
@@ -46,23 +46,37 @@ The DTLS stub will most likely also be in python.
 </details>
 
 <details>
-<summary>UPD4.5</summary>
+<summary>UPD4.5(Outdated)</summary>
 In short, it turned out that apps-ext.oufit7.com (the main TTC server) is actually HTTP, not DTLS, so everything I said about DTLS was me jumping to conclusions. 
 
 I’m currently looking into this apps-ext (I’ll shorten it), and POSSIBLY, when I finally get the game running in some way, I’ll add UPD5 or UPD6 and then release the very first server emulator.
 
 </details>
-Most likely, development will slow down after the summer ends, but I will still continue doing.
+
+<details>
+<summary>UPD5!?</summary>
+THE GAME IS FINALY WORKING!!!
+
+![alt text](https://raw.githubusercontent.com/Alexey19483/Server-Emulation-For-Talking-Tom-Camp/refs/heads/Server-Emulation/stubs/images/photo_2026-09-26_23-32-22.jpg)
+
+![alt text](https://raw.githubusercontent.com/Alexey19483/Server-Emulation-For-Talking-Tom-Camp/refs/heads/Server-Emulation/stubs/images/photo_2026-09-26_23-33-33.jpg)
+
+![alt text](https://raw.githubusercontent.com/Alexey19483/Server-Emulation-For-Talking-Tom-Camp/refs/heads/Server-Emulation/stubs/images/photo_2026-09-26_23-33-29.jpg)
+
+BUT IT'S VERY BAGGY! Soon, I will fix the bugs, and publish FIRST SERVER EMULATOR!!!
+
+</details>
 
 > TO BE HONEST: I don't know who will play, the fandom has already broke up I think and the game is old (it’s been almost 6 years since the servers were shut down) and only now I got around to this.
+
 ## Эмуляция Сервера для Говорящий Том: Водная битва (Русский перевод):
 
-> Я незнаю получится ли мне это сделать или нет,но я попробую.
+> "Пора наполнять шарики водой, лагерь уже близко. Приключения вот вот начнутся!"
 
 Я пытаюсь сделать эмулятор сервера Для Говорящий Том: Водная битва (Я буду сокращать,если что игра по другому называется Битва Тома/Том Водная Битва ну или Лагерь Тома,сокращать буду как TTC). Я делаю это потому что оригинальный сервер уже выключен ( "Спасибо" , Outfit7! ). Я постараюсь сделать игры рабочей так,как она была до выключения серверов. Я попытаюсь восстановить всё: уведомления, лидерборды, кланы, матчмейкинг и полную поддержку онлайна без серверов Outfit7 и прочего (Рекламные SDK, Всякие Google штуки). Почему без всего этого - потому что я хочу сделать автономность. Я не знаю когда я сделаю это,но я надеюсь что я выпущу первый прототип без всего лишнего (то есть без того что не нужно для запуска).
 
 <details>
-<summary>АПД1</summary>
+<summary>АПД1(Устаревший)</summary>
   
 Есть хорошая и плохая новость. Хорошая - я пофиксил "login failed" "сообщение" ,и я знаю backend адреса TTC. Плохая - теперь другое "сообщение" : "CONNECTION ERROR"
 
@@ -72,7 +86,7 @@ Most likely, development will slow down after the summer ends, but I will still 
 
  
 <details>
-<summary>АПД2</summary>
+<summary>АПД2(Устаревший)</summary>
 Короче,связи с тем что движок здесь кастомный - Starlite, будет возможно две версии:
   
 1. Исходная игра но с эмуляцией сервера,онлайн по локалке и по сети (прям по сети конечно возможно, я возможно не буду хостировать но выложу ПО для эмуляции и поднятия своего сервера).
@@ -82,13 +96,13 @@ Most likely, development will slow down after the summer ends, but I will still 
 
 
 <details>
-<summary>АПД3</summary>
+<summary>АПД3(Устаревший)</summary>
 Я короче так и не нашел никого,продолжаю работу. Короче говоря - я почти смог запустить. Я смог получить Grid конфиг через дыру в сервера,но игре всё еще чего-то не хватает. Либо что-то с google составляющей,либо есть какие-то скрытые соединения из-за которых падает игра,либо я как-то не так преподношу игре конфиг и т.д. (хотя с другими играми Outfit7 я смог нормально сделать заглушку и запустить их). Короче буду продолжать работу.
 
 </details>
 
 <details>
-<summary>АПД4</summary>
+<summary>АПД4(Устаревший)</summary>
 HTTP(S) заглушка уже готова,но в дальнейшем нужна будет доработка (добавления лайф режима для grid конфига и т.д., добавление других URL чтобы заглушка отвечала на них тоже. Моя заглушка сделана на python с mitmproxy.
 
 НО ДАЖЕ С ЗАГЛУШКОЙ ДО ЗАПУСКА ИГРЫ НЕ ДОХОДИТ!
@@ -103,13 +117,25 @@ DTLS заглушка будет скорей всего тоже на python.
 </details>
 
 <details>
-<summary>АПД4.5</summary>
+<summary>АПД4.5(Устаревший)</summary>
 Короче, оказалось что apps-ext.oufit7.com (основной сервер TTC) вообще HTTP а не DTLS, так что всё что я сказал про DTLS это я поспешил с выводами. 
 
 Сейчас уже разбираюсь с этим apps-ext (я буду сокращать), и ВОЗМОЖНО, когда у меня наконец-то будет хоть как-то запускаться игра, то я добавлю АПД5 или АПД6 и уже выложу самый первый эмулятор сервера.
   
 </details>
 
-Скорей всего разработка после окончания лета будет замедлена,но я всё равно буду продолжать делать.
+<details>
+<summary>АПД5!?</summary>
+ИГРА НАКОНЕЦ-ТО РАБОТАЕТ
+
+![alt text](https://raw.githubusercontent.com/Alexey19483/Server-Emulation-For-Talking-Tom-Camp/refs/heads/Server-Emulation/stubs/images/photo_2026-09-26_23-32-22.jpg)
+
+![alt text](https://raw.githubusercontent.com/Alexey19483/Server-Emulation-For-Talking-Tom-Camp/refs/heads/Server-Emulation/stubs/images/photo_2026-09-26_23-33-33.jpg)
+
+![alt text](https://raw.githubusercontent.com/Alexey19483/Server-Emulation-For-Talking-Tom-Camp/refs/heads/Server-Emulation/stubs/images/photo_2026-09-26_23-33-29.jpg)
+
+НО ОНА ОЧЕНЬ БАГАННАЯ! Скоро, я пофикшу баги и выложу ПЕРВЫЙ ЭМУЛЯТОР СЕРВЕРА!!!
+
+</details>
 
 > ЕСЛИ ЧЕСТНО: Я незнаю кто будет играть,фандом уже распался вроде,игра старая (ну уже почти что 6 лет с закрытия прошло) а мои руки только сейчас добрались.
