@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/badge/Server_Emulation-purple?style=for-the-badge" alt="Server Emulation"/>
   <img src="https://img.shields.io/badge/Private_Server-orange?style=for-the-badge" alt="Private Server"/>
   <img src="https://img.shields.io/badge/Progress-Breakthrough!-brightgreen?style=for-the-badge" alt="Progress"/>
+  <img src="https://img.shields.io/badge/License-AGPL_v3-blue?style=for-the-badge&logo=gnu&logoColor=white" alt="License: AGPL v3"/>
 </p>
 
 <p align="center">
@@ -153,6 +154,34 @@ Soon I'll fix the bugs and publish the **FIRST SERVER EMULATOR**!!!
 
 ---
 
+## 📄 License
+
+This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+
+- ✅ You are free to use, modify, and distribute this software.
+- ✅ If you run a modified version **on a network server** and let others use it, you **must** release your source code under the same license.
+- ❌ You cannot use this code in closed-source or proprietary projects.
+
+See the full text in the [`LICENSE`](LICENSE) file.
+
+> **Note:** The AGPL-3.0 license applies **only to the code in this repository**, not to any assets or content belonging to Outfit7 Limited.
+
+---
+
+## ⚖️ Disclaimer
+
+This project is a **fan-made server emulator** and is **not affiliated with, endorsed by, or associated with Outfit7 Limited** in any way.
+
+- **Talking Tom Camp**, all related characters, assets, trademarks, and copyrights belong to **Outfit7 Limited**.
+- This project is **non-commercial** and made **for preservation and educational purposes only**.
+- No original game files, assets, or copyrighted content are distributed in this repository.
+- **Client modification:** This project does **not** distribute any modified game clients (APKs). Any necessary client-side modifications are provided as **separate tools, patches, or instructions** and are intended for use **only on legally obtained copies of the game** for preservation purposes. Users apply them at their own risk.
+- All trademarks and copyrights are the property of their respective owners.
+
+If you are a representative of Outfit7 and have concerns about this project, please contact me and I will take appropriate action.
+
+---
+
 <p align="center">
   <i>Made with ❤️ for a game that deserved better.</i><br>
   <sub>⭐ Star the repo if you want to see TTC alive again!</sub>
@@ -172,6 +201,7 @@ Soon I'll fix the bugs and publish the **FIRST SERVER EMULATOR**!!!
   <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android"/>
   <img src="https://img.shields.io/badge/Эмуляция_сервера-purple?style=for-the-badge" alt="Эмуляция сервера"/>
   <img src="https://img.shields.io/badge/Приватный_сервер-orange?style=for-the-badge" alt="Приватный сервер"/>
+  <img src="https://img.shields.io/badge/Лицензия-AGPL_v3-blue?style=for-the-badge&logo=gnu&logoColor=white" alt="Лицензия: AGPL v3"/>
   <img src="https://img.shields.io/badge/Прогресс-Прорыв!-brightgreen?style=for-the-badge" alt="Прогресс"/>
 </p>
 
@@ -316,9 +346,37 @@ HTTP(S)-заглушка для `apps.outfit7.com` уже готова, но в 
 
 ---
 
+### 📄 Лицензия
+
+Этот проект распространяется под лицензией **GNU Affero General Public License v3.0 (AGPL-3.0)**.
+
+- ✅ Вы можете свободно использовать, изменять и распространять этот код.
+- ✅ Если вы запускаете изменённую версию **на сервере** и даёте к ней доступ по сети — вы **обязаны** открыть исходный код под той же лицензией.
+- ❌ Запрещено использовать этот код в закрытых или проприетарных проектах.
+
+Полный текст — в файле [`LICENSE`](LICENSE).
+
+> **Примечание:** лицензия AGPL-3.0 распространяется **только на код в этом репозитории**, но не на ассеты или контент, принадлежащие Outfit7 Limited.
+
+---
+
+### ⚖️ Дисклеймер
+
+Этот проект — **фанатский эмулятор сервера**, и он **никак не связан с Outfit7 Limited**, не одобрен и не аффилирован с ней.
+
+- **Говорящий Том: Водная битва**, все связанные персонажи, ассеты, торговые марки и авторские права принадлежат **Outfit7 Limited**.
+- Проект является **некоммерческим** и создан **исключительно в целях сохранения игры и обучения**.
+- В этом репозитории **не распространяются** оригинальные игровые файлы, ассеты или защищённый авторским правом контент.
+- **Модификация клиента:** этот проект **не распространяет** модифицированные клиенты игры (APK). Все необходимые изменения на стороне клиента предоставляются в виде **отдельных инструментов, патчей или инструкций** и предназначены **только для использования на легально полученных копиях игры** в целях сохранения. Пользователи применяют их на свой страх и риск.
+- Все торговые марки и авторские права принадлежат их соответствующим владельцам.
+
+Если вы являетесь представителем Outfit7 и у вас есть вопросы по этому проекту — свяжитесь со мной, и я предприму соответствующие меры.
+
+---
+
 <p align="center">
   <i>Сделано с ❤️ для игры, которая заслуживала лучшего.</i><br>
-  <sub>⭐ Поставь звёздочку репозиторию, если хочешь снова увидеть Говорящий Том: Водна Битва живым!</sub>
+  <sub>⭐ Поставь звёздочку репозиторию, если хочешь снова увидеть Говорящий Том: Водная битва живым!</sub>
 </p>
 
 </details>
