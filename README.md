@@ -42,34 +42,46 @@ I want to restore:
 | HTTP/HTTPS stub | ✅ Done |
 | Server response format is (a little bit) cracked | ✅ Done |
 | Game launches | ✅ **Working!** |
-| Server response format is fully cracked | 🟡 In progress |
-| Fix configuration bugs / Build full server emulator for all URLs | 🟡 In progress |
-| Server emulator release | 🔜 Coming soon |
-| Private server software release | 🔜 Coming soon |
-| MY OWN private server | ❓ |
+| Server response format is fully cracked | ✅/🟡 (JSON-keys ✅, their meaning 🟡) |
+| Fix configuration bugs / Build full server emulator **PROTOTYPE** for most essential URLs | 🟡 In progress |
+| Build full server emulator **PROTOTYPE** for **ALL** URLs | 🔜 Not for now, coming soon |
+| Build full server emulator **RELEASE** version / **SOFTWARE** version | 🔜 Coming soon |
+| Build full server emulator **MOBILE PORT** version | 🔜 Coming soon |
+| **RELEASE** | 🔜 Coming soon |
+| **Private server** **SOFTWARE** release | 🔜 Coming soon |
+| **MY OWN** private server | ❓ |
 
 ---
 
 ## 📚 Additional Info
 
 <details>
-<summary><b>🐛 Game bugs with the server emulator</b></summary>
+<summary><b>🐛 Game bugs with the server emulator (will be removed)</b></summary>
 
-Sorry, but there's nothing here yet. It'll be filled in soon, I promise!
+There are so many for now!
+1. Incorrect balancing (incorrect hp, radius, etc on units, buildings)
+2. Game crashes on some parts (not some, the game is just **UNPLAYABLE** for now)
+3. Unknown future about clans, pvp, notifications
 
 </details>
 
 <details>
 <summary><b>ℹ️ General information</b></summary>
 
-Sorry, but there's nothing here yet. It'll be filled in soon, I promise!
+For now, server emulator is on python (mitmproxy), also GO server (i don't know for what) and apps-ext.outfit7.com redirect in system/etc/hosts.
+The testing is on LDPlayer 9 (not an ad, huh?). Current Talking Tom Camp is modified for removing SSL pinning.
+I started this project around 30th may 2026, but started documenting recently.
+The school eats my time, so I can't devote much time to this project.
+The idea of reviving Talking Tom Camp occurred to me only in 2026. Before 2026, I just searched in internet private server and hoped it exists, but my patience snapped.
+I don't know when i will publish first server emulator, just wait some time!
+And also about **MOBILE PORT**, i will try to make like launcher, where you can download any version of talking tom camp, this app will modify version to make the game server emulating/private server ready, and you will have opportunity not only to play alone, but also play on local network and even join **PRIVATE SERVER**! And also, the emulator not only will can be to make game working, but also simulate server errors, you will also can to modify balance of the game, and (i think) even turn on debug mode if it's will be possible! And i think playing with debug mode will be interesting because of it's potential.
 
 </details>
 
 <details>
 <summary><b>🖥️ About the server emulator / private server</b></summary>
 
-Sorry, but there's nothing here yet. It'll be filled in soon, I promise!
+Nothing to say yet, wait some time!
 
 </details>
 
@@ -201,8 +213,8 @@ If you are a representative of Outfit7 and have concerns about this project, ple
   <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android"/>
   <img src="https://img.shields.io/badge/Эмуляция_сервера-purple?style=for-the-badge" alt="Эмуляция сервера"/>
   <img src="https://img.shields.io/badge/Приватный_сервер-orange?style=for-the-badge" alt="Приватный сервер"/>
-  <img src="https://img.shields.io/badge/Лицензия-AGPL_v3-blue?style=for-the-badge&logo=gnu&logoColor=white" alt="Лицензия: AGPL v3"/>
   <img src="https://img.shields.io/badge/Прогресс-Прорыв!-brightgreen?style=for-the-badge" alt="Прогресс"/>
+  <img src="https://img.shields.io/badge/Лицензия-AGPL_v3-blue?style=for-the-badge&logo=gnu&logoColor=white" alt="Лицензия: AGPL v3"/>
 </p>
 
 <p align="center">
@@ -234,34 +246,46 @@ If you are a representative of Outfit7 and have concerns about this project, ple
 | HTTP/HTTPS-заглушка | ✅ Готово |
 | Формат ответа сервера (немного) разгадан | ✅ Готово |
 | Запуск игры | ✅ **Работает!** |
-| Формат ответа сервера полностью разгадан | 🟡 В процессе |
-| Исправление багов конфигурации / Создание полноценного эмулятора сервера для всех URL | 🟡 В процессе |
-| Релиз эмулятора сервера | 🔜 Скоро |
-| Релиз ПО для приватного сервера | 🔜 Скоро |
-| МОЙ СОБСТВЕННЫЙ приватный сервер | ❓ |
+| Формат ответа сервера полностью разгадан | ✅/🟡 (JSON-ключи ✅, их значение 🟡) |
+| Исправление багов конфигурации / Создание **ПРОТОТИПА** полноценного эмулятора сервера для самых важных URL | 🟡 В процессе |
+| Создание **ПРОТОТИПА** полноценного эмулятора сервера для **ВСЕХ** URL | 🔜 Пока не сейчас, скоро |
+| Создание **РЕЛИЗ** версии эмулятора сервера / версии как **ПО** | 🔜 Скоро |
+| Создание **МОБИЛЬНОГО ПОРТА** эмулятора сервера | 🔜 Скоро |
+| **РЕЛИЗ** | 🔜 Скоро |
+| Релиз **ПО** для **приватного сервера** | 🔜 Скоро |
+| **МОЙ СОБСТВЕННЫЙ** приватный сервер | ❓ |
 
 ---
 
 ### 📚 Дополнительная информация
 
 <details>
-<summary><b>🐛 Баги игры с эмулятором сервера</b></summary>
+<summary><b>🐛 Баги игры с эмулятором сервера (будут удалены)</b></summary>
 
-Извиняюсь, но тут пока-что ничего нету. Скоро будет заполнено, обещаю!
+Их пока что очень много!
+1. Неправильный баланс (неправильные хп, радиус и т.д. у юнитов, зданий)
+2. Игра крашится в некоторых местах (не в некоторых, игра просто **НЕИГРАБЕЛЬНА** пока что)
+3. Неизвестное будущее насчёт кланов, пвп, уведомлений
 
 </details>
 
 <details>
 <summary><b>ℹ️ Общая информация</b></summary>
 
-Извиняюсь, но тут пока-что ничего нету. Скоро будет заполнено, обещаю!
+Пока что эмулятор сервера на Python (mitmproxy), ещё GO-сервер (я не знаю для чего) и редирект apps-ext.outfit7.com в system/etc/hosts.
+Тестирование идёт на LDPlayer 9 (не реклама, хах). Текущий Говорящий Том: Водная битва модифицирован для удаления SSL pinning.
+Я начал этот проект где-то 30 мая 2026, но документировать начал недавно.
+Школа съедает моё время, так что я не могу уделять проекту много времени.
+Идея возродить Говорящий Том: Водная битва пришла ко мне только в 2026. До 2026 я просто искал в интернете приватный сервер и надеялся, что он существует, но моё терпение лопнуло.
+Я не знаю когда выпущу первый эмулятор сервера, просто подождите немного!
+И ещё насчёт **МОБИЛЬНОГО ПОРТА**: я попробую сделать типа лаунчер, где вы можете скачать любую версию говорящего тома, это приложение будет модифицировать версию, чтобы игра была готова к эмуляции сервера/приватному серверу, и у вас будет возможность не только играть одному, но и играть по локалке и даже присоединиться к **ПРИВАТНОМУ СЕРВЕРУ**! А ещё, эмулятор не только сможет заставить игру работать, но и симулировать серверные ошибки, вы также сможете изменять баланс игры, и (я думаю) даже включить дебаг-режим если это будет возможно! И я думаю играть с дебаг-режимом будет интересно из-за его потенциала.
 
 </details>
 
 <details>
 <summary><b>🖥️ Об эмуляторе сервера / приватном сервере</b></summary>
 
-Извиняюсь, но тут пока-что ничего нету. Скоро будет заполнено, обещаю!
+Пока что нечего сказать, подождите немного!
 
 </details>
 
