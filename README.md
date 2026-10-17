@@ -85,6 +85,18 @@ Nothing to say yet, wait some time!
 
 </details>
 
+<details>
+<summary><b>📞Contacts</b></summary>
+
+So, I have telegram: @ianesnaychtotytnapisat
+
+And also, I have a discord server (English only):
+https://discord.gg/r5M2ruZ9Kr
+
+That's all for now!
+
+</details>
+
 ---
 
 ## 📜 Development Log
@@ -286,6 +298,18 @@ If you are a representative of Outfit7 and have concerns about this project, ple
 <summary><b>🖥️ Об эмуляторе сервера / приватном сервере</b></summary>
 
 Пока что нечего сказать, подождите немного!
+
+</details>
+
+<details>
+<summary><b>📞Контакты</b></summary>
+
+У меня есть telegram: @ianesnaychtotytnapisat
+
+И также, есть discord сервер (Только на английском):
+https://discord.gg/r5M2ruZ9Kr
+
+Это всё на данный момент!
 
 </details>
 
