@@ -134,7 +134,7 @@ Either something's wrong with the Google part, or there are hidden connections c
 <details>
 <summary><b>UPD4 — HTTP(S) stub done, DTLS puzzle appears</b> <i>(outdated)</i></summary>
 
-The HTTP(S) stub is ready, but it needs further refinement: live mode for the grid config, more URLs, etc. It's written in **Python with mitmproxy**.
+The HTTP(S) stub for `apps.outfit7.com` is ready, but it needs further refinement: live mode for the grid config, more URLs, etc. It's written in **Python with mitmproxy**.
 
 **BUT EVEN WITH THE STUB, THE GAME DOESN'T START!**
 
@@ -476,7 +476,7 @@ HTTP(S)-заглушка для `apps.outfit7.com` уже готова, но в 
 
 <p align="center">
   <i>Сделано с ❤️ для игры, которая заслуживала лучшего.</i><br>
-  <sub>⭐ Поставь звёздочку репозиторию, если хочешь снова увидеть Говорящий Том: Водная битва живым!</sub>
+  <sub>⭐ Поставь звёздочку репозиторию, если хочешь снова увидеть Говорящий Том: Водная Битва живым!</sub>
 </p>
 
 </details>
