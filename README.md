@@ -172,11 +172,36 @@ Soon I'll fix the bugs and publish the **FIRST SERVER EMULATOR**!!!
 
 </details>
 
----
+<details>
+<summary><b>UPD6 — Real progress, architectural limits, and future plans 👀</b></summary>
 
-> 💭 **TO BE HONEST:** I don't know who will play. The fandom has already broken up, I think, and the game is old — it's been almost **6 years** since the servers shut down — and only now did I finally get around to this.
+Okay, a lot has happened since UPD5. The game is **actually becoming playable**, not just launching:
 
----
+**What works now:**
+- ✅ Nicknames
+- ✅ Coupons
+- ✅ Fights 
+- ✅ ...and more
+
+**What's still broken (and there's a lot):**
+- 🐛 Units deal damage incorrectly in battle (some insta-kill, some deal zero damage)
+- 🐛 Building upgrades don't work at all
+- 🐛 Training/building timers don't tick
+- 🐛 Visual bugs
+- 🐛 ...and more
+
+> 💭 **A quick note on "original gameplay":** Since the original servers used a "dumb" architecture, all the balancing data (unit damage, HP, timers) lived on Outfit7's servers, which are gone forever. The client only knows the JSON structure. So, to recover the "original gameplay", I would need a traffic dump from before the server shutdown OR meticulously watch old gameplay videos and try to reverse-engineer the numbers from them. But even then, it will not be 100% original no matter what. I am rebuilding the logic from scratch.
+
+**About "other revivals":** I've seen another project claiming to bring TTC back. It has a website and a YouTube video. But if you look closely at their progress, they have no actual APK released yet, and their development seems to be quite unstable. Oh, and they mentioned in their video that if they don't get enough donations, the project will become **paid**. I'm doing this **for free, in the open, and mostly solo**. I'm not here to compete. If they actually deliver something working — good for them. But for now, I'll stick to fixing my own bugs. 🐛
+
+**Future plans (Launcher & Anti-Cheat):**
+I also plan to build a launcher/mobile port. This app will not only let you easily patch the game for server emulation but will also try to patch the holes Outfit7 left behind. I want to add server-side validation so you can't just use Game Guardian to conjure 99999 gems and instantly break the economy. Yes, it's a cat-and-mouse game, but I'll try to make it fair.
+
+**A note on the team:** Right now, I'm doing this completely **solo**. Even with a bunch of fans waiting (thank you!), it's hard to find someone as crazy as me to spend this much time and effort. Most will just wait. But I'll keep trying to find at least 1-2 enthusiasts to help out with specific tasks.
+
+**P.S.** I already have some early emulator builds! They are not public on GitHub yet, but they are available on my Discord server along with an installation guide. The server is mostly English-speaking, but you are welcome to join!
+
+</details>
 
 ## 📄 License
 
@@ -306,7 +331,7 @@ If you are a representative of Outfit7 and have concerns about this project, ple
 
 У меня есть telegram: @ianesnaychtotytnapisat
 
-И также, есть discord сервер (Только на английском):
+И также, есть discord сервер (Там только англичане, но рады всем!):
 https://discord.gg/r5M2ruZ9Kr
 
 Это всё на данный момент!
@@ -388,11 +413,38 @@ HTTP(S)-заглушка для `apps.outfit7.com` уже готова, но в 
 
 </details>
 
----
+<details>
+<summary><b>АПД6 — Реальный прогресс, ограничения архитектуры и планы на будущее 👀</b></summary>
 
-> 💭 **ЕСЛИ ЧЕСТНО:** я не знаю, кто будет играть. Фандом уже распался вроде, игра старая — ну, уже почти 6 лет с закрытия прошло — а мои руки только сейчас добрались.
+Короче, с момента АПД5 много всего произошло. Игра **реально становится играбельной**, а не просто запускается (ну хотяяя, про играбельность прям загнул):
 
----
+**Что уже работает:**
+- ✅ Ники
+- ✅ Купоны
+- ✅ Бои
+- ✅ ...и другое
+
+**Что ещё сломано (и этого много):**
+- 🐛 Юниты неправильно наносят урон в бою (некоторые моментально убивают, некоторые вообще не наносят дамага)
+- 🐛 Апгрейды зданий вообще не работают
+- 🐛 Таймеры тренировки/постройки не идут
+- 🐛 Визуальные баги
+- 🐛 ...и это ещё не всё
+
+> 💭 **Небольшое примечание насчёт "оригинального геймплея":** Так как оригинальные серверы использовали "тупую" архитектуру, все данные баланса (урон юнитов, ХП, таймеры) жили на серверах Outfit7, которых больше нет. Клиент знает только структуру JSON. Поэтому, чтобы восстановить "оригинальный геймплей", мне нужен либо дамп трафика до закрытия серверов, либо нужно пересматривать тонны геймплейных видео и пытаться вытащить цифры оттуда. Но даже в этом случае это не будет на 100% оригинально, как бы я ни старался. Я восстанавливаю логику с нуля.
+
+**Насчёт "других возрождений":** Я видел еще один проект, который обещает вернуть TTC. У него есть сайт и видео на ютубе. Но если посмотреть на их прогресс поближе, у них до сих пор нет выпущенного APK, и разработка выглядит довольно нестабильно. А ещё они упомянули в своём видео, что если не наберут достаточно донатов, то их проект станет **платным**. Я делаю это **бесплатно, открыто и в основном в одиночку**. Я здесь не для конкуренции. Если они реально выпустят что-то рабочее — круто. Но пока что я буду чинить свои баги. 🐛
+
+**Планы на будущее (Лаунчер и защита от читов):**
+Я также планирую сделать лаунчер/мобильный порт. Это приложение не только позволит легко патчить игру для эмуляции сервера, но и попытается залатать дыры, которые оставили Outfit7. Я хочу добавить серверную валидацию, чтобы нельзя было просто через Game Guardian наколдовать 99999 гемов и мгновенно сломать экономику. Да, это игра в кошки-мышки, но я постараюсь сделать игру честной.
+
+**Насчёт команды:** Прямо сейчас я делаю это полностью **в одиночку**. Даже с кучей ожидающих фанатов (спасибо вам!), сложно найти такого же сумасшедшего, как я, готового тратить столько времени и сил. Большинство просто будет ждать. Но я продолжу искать хотя бы 1-2 энтузиастов, чтобы помочь с конкретными задачами.
+
+**P.S.** У меня уже есть ранние сборки эмулятора! Они пока не выложены публично на GitHub, но доступны на моём Discord-сервере вместе с инструкцией по установке. Сервер в основном англоязычный, но я буду рад, если вы зайдёте!
+
+Скорей всего, на этом закончится лог об разработке. Позже уже будут релизы и информация о них.
+
+</details>
 
 ### 📄 Лицензия
 
